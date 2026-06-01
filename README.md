@@ -12,17 +12,14 @@ The company's next big step is to extend its product line to the US market and n
 **Insights and recommendations are provided on the key areas:**
 -
 
-High income states: above average income per household 
 
-Prioritisation of high-income households or slightly above average, with targeted campaigns.
 
 
 Data Structure and Initial Checks
 ---
 The Us Income Database Structure , as seen below, contains two main Tables : US Household Income and US Household Income Statistics with a total row count of 65,059.
 
-<img width="707" height="667" alt="Tables_Schema" src="https://github.com/user-attachments/assets/8372f875-ce1c-4dff-81c9-5746d2ae73c2" />
-
+<img width="751" height="675" alt="Screenshot 2026-06-01 at 16 59 28" src="https://github.com/user-attachments/assets/2c34b6f5-789b-4d7e-b87c-fec3ef4becc5" />
 
 Executive Summary 
 ---
@@ -39,7 +36,9 @@ Recommendations
 Based on the uncovered insights, the following recommendations have been provided:
   -  jdfhf￼
 
+High income states: above average income per household 
 
+Prioritisation of high-income households or slightly above average, with targeted campaigns.
 
 Caveats and assumptions
 ---
