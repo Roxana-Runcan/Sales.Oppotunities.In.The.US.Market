@@ -82,25 +82,19 @@ These are closely followed by New York, while other high-income states such as H
 ## Market Analysis Insights:
 
   - Key finding : East Coast dominates high-income states 
-  - Primary recommendation: Phased rollout focused on the East coast for lowest risk and higher success of campaign.
-  - At the lowest end of the list , with the lowest buying power , we have found states like 
-
+  - Primary recommendation: Focus on the highest-income states and affluent suburban cities
+  - Expansion model: should includ a pilot phase in the top East Coast markets, followed by expansion in additional high-income states such as Virginia, New York, Illinois once demand is validated
+  - Complex markets with potential hidden costs: Alaska, Hawaii, California
+  - Low-income states: are predominantly concentrated in the South and display a low purchasing power
 
 
 ## Recommendations:
 ----- 
 
-   - Based on the uncovered insights, the following recommendations are proposed:
-
-      - In Phase 1, focus the core strategy and investment on the primary market drivers along the East Coast. Implement a 1–6 month marketing pilot targeting high-income zip codes such as Short Hills, Chevy Chase, and Narberth.
-
-      - In Phase 2, over the 6–12 month period, expand into states including Virginia, New York, and Illinois
-
-      - In Phase 3, beginning at month 13 and beyond, consider expansion into markets such as California and Hawaii, which offer strong demand potential but also involve higher logistics costs and more complex distribution requirements
-  
-  -  Focusing on these top earners would significantly reduce investment risk due to concentrated wealth, which translates into higher conversion rates and lower customer acquisition costs
-  -  The State of Alaska should be excluded in the beginning due to logistics and accessibility issues
-    
+   Based on the analysis, Aurora Luxury Atelier should prioritize a phased US expansion strategy centered on affluent East Coast markets.
+   The strongest commercial potential is concentrated in high-income states such as the District of Columbia, Connecticut, New Jersey, Maryland, and Massachusetts, with additional opportunity in select high-income suburban cities. 
+   Given the elevated logistics and infrastructure costs associated with Alaska, Hawaii, and California, these markets should be deferred until a later expansion phase.
+   In the short term, the brand should focus on premium, high-income regions where purchasing power is strongest and customer acquisition efficiency is most likely to be highest.
      
 
 
