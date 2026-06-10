@@ -3,7 +3,7 @@
 
 
 
-## Project Background 
+## Background 
 
 
 Aurora Luxury Atelier*, founded in 2024 in Copenhagen, is a European luxury lifestyle brand specializing in handcrafted smart watches and fine leather accessories that integrate seamlessly with premium smartphones.The company combines Scandinavian design with advanced wearable technology and has built a strong customer-base across different European Countries.
@@ -11,21 +11,18 @@ The company's next big step is to extend its product line to the US market and n
 
 
 
-## Insights and recommendations are provided on the key areas:
------
-[Go to Executive summary](#executive-summary)
-[### Executive Summary:]
-### Geographical Targeting Insight:
-### Market Analysis Insights
-### Recommendations:
-### Caveats and assumptions
+## Insights and recommendations are provided at the key areas:
 
+- [Executive Summary](#executive-summary)
+- [Geographical Targeting Insight](#geographical-targeting-insight)
+- [Recommendations](#recommendations)
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/USIncomeDistribution2/Dashboard1?publish=yes).
 
-The SQL queries utilized to cleand, standardize and conduct initial analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
+The SQL queries utilized to conduct initial analysis on the dataset can be found [here](https://github.com/Roxana-Runcan/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
 
 The files with the unprocessed data can be found [here]( https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/tree/main/data/raw).
+
 
 ## Data Structure and Initial Checks:
 -----
@@ -35,9 +32,11 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 <img width="751" height="675" alt="Screenshot 2026-06-01 at 16 59 28" src="https://github.com/user-attachments/assets/2c34b6f5-789b-4d7e-b87c-fec3ef4becc5" />
 
 
+
 ## Executive Summary:
 -----
    The strongest opportunity for return on investment and successful marketing execution is concentrated on the ***East Coast***. If the strategy is **state-focused**, marketing budget and inventory should prioritize the top five states in the country, with New Jersey leading the group. If the strategy is **city-focused**, the approach should prioritize the top 10 highest-earning cities identified in the analysis.
+
 
 
 ### Geographical Targeting Insight:
