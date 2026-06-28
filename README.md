@@ -1,7 +1,9 @@
 # US Market Sales Potential by Income
 -----
-
-
+[![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
+<a href="https://www.tableau.com/">
+  <img src="https://logo.svgcdn.com/logos/tableau.svg" alt="Tableau" width="100" />
+</a>
 
 ## Project Background 
 
