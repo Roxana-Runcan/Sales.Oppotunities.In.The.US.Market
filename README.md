@@ -94,8 +94,8 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 ----- 
 
    The income figures should be interpreted as directional market signals rather than a guarantee of demand or conversion.
-   High income improves targeting potential, but product-market fit, pricing, competition, and local execution will still drive results
+   High income improves targeting potential, but product-market fit, pricing, competition, and local execution will still drive results.
    The exclusion of Alaska and Hawaii is practical for rollout planning, but it limits the completeness of the national picture.
 
-* represent a sample company
+*represent a sample company
 
