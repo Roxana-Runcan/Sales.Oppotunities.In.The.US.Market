@@ -29,7 +29,7 @@ The company's next big step is to extend its product line to the US market and n
 
 
 
-An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/USIncomeDistribution2/Dashboard1?publish=yes).
+An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1(https://public.tableau.com/app/profile/roxana.runcan/viz/USIncomeDistribution2/Dashboard1?publish=yes)](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1)).
 
 The SQL queries utilized to cleand, standardize and conduct initial analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
 
