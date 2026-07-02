@@ -51,9 +51,9 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 ## Executive Summary
 
 
-   The strongest opportunity for return on investment and successful marketing execution is concentrated on the ***East Coast***. If the strategy is **state-focused**, marketing budget and inventory should prioritize the top ten states in the country, with Dstrict of Columbia leading the group,followed by Connecticut, New Jersey, Maryland,Massachusetts, Virginia, California, New York, New Hamshire and Washington.
-   These States rest above the country wide housesold income of $ 65.000, with Washington being on the last position out of our top 10 with an average househols income at $ 75.000 and District of Columbia at the top with $ 91.000.
+The purpose of this analysis was to identify concentrations of buying power across the United States to guide market-entry strategy for a European company. The results show that the top 10 most affluent states should be the primary target, with nine located on the East Coast and one on the West Coast.
 
+At the city level, the strongest concentration of high-earning cities is found in only five states: Connecticut, New Jersey, Maryland, California, and Massachusetts. This pattern suggests that initial expansion efforts should focus on these states, as they combine strong household purchasing power with clustered high-income urban markets.
 
 ## Deep Dive Analysis
 -----
@@ -76,12 +76,22 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 ### High Income States:
 - The top 10 states all exceed the national average of roughly 65k, making them the most relevant geographies for premium market targeting.
 - These states form the core market for the next stage of commercial prioritization.
+<p align="center">
+<img width="700" alt="Income by State" src="https://github.com/user-attachments/assets/ef1ae2cc-2e58-46a3-9d55-dc7b99581c88" />
+</p>
 
 ### City-level Concentration:
-- Within these 10 states, the strongest cities show average incomes starting at roughly 150k on the low end.This indicates that the opportunity is not evenly distributed across each state, but concentrated in select urban areas.
+- Within these 10 states, the strongest cities show average incomes starting at roughly 169k on the low end.This indicates that the opportunity is not evenly distributed across each state, but concentrated in select urban areas.
+
+<p align="center">
+<img width="700" height="486" alt="Income by City and State" src="https://github.com/user-attachments/assets/c2bcd6b4-df50-47cd-b329-f96ec8ff2c97" />
+</p>
 
 ### Geographic Clustring:
-- A notable clustering pattern appears on the East Coast, where 8 of the 10 high-income states are concentrated. The remaining 2 high-income states are on the West Coast, creating a secondary but important opportunity cluster.
+- A notable clustering pattern appears on the East Coast, where 9 of the 10 high-income states are concentrated. The remaining one high-income state are is represented by Californiaon the West Coast, creating a secondary but important opportunity cluster.
+- The analysis reveales that high_earning Cities are clusted within a small set of States,rather than being evenly distributed, wealth is concentrated in a few regions , highlighting priority zones for market entry
+-  Clustered wealth reduces the need to spread resources across the whole country, because these attractive markets sit near each other
+-  The access on these markets is extremely advantageous , as clustered cities often share logistics, media reach, and customer behavior patterns, which can make entry and scaling more efficient
 
 ### Risk Considerations:
 - Alaska and Hawaii were excluded to improve distribution efficiency and keep the analysis focused on contiguous market logistics.That said, Alaska may warrant separate review later, as higher logistics costs and geographic isolation could influence both feasibility and observed income levels.
