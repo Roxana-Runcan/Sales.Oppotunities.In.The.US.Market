@@ -15,16 +15,17 @@ The company's next big step is to extend its product line to the US market and n
 
 ## Insights and recommendations are provided on the key areas:
 -----
-### [Executive summary](#executive-summary)
+- [**Executive summary**](#executive-summary)
 
-### [Deep Dive](#deep-dive)
+- [**Deep Dive Analysis**](#deep-dive-analysis)
 
-### [Market Analysis Insights ](#market-analysis-insights)
+- [**Market Analysis Insights**](#market-analysis-insights)
 
-### [Recommendations](#recommendations)
+- [**Recommendations**](#recommendations)
 
-### [Caveats and assumptions](#caveats-and-assumptions)
+- [**Caveats and assumptions**](#caveats-and-assumptions)
 
+  
 
 
 
@@ -43,14 +44,14 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 <img width="751" height="675" alt="Screenshot 2026-06-01 at 16 59 28" src="https://github.com/user-attachments/assets/2c34b6f5-789b-4d7e-b87c-fec3ef4becc5" />
 
 
-## Executive Summary:
------
+## Executive Summary
+
 
    The strongest opportunity for return on investment and successful marketing execution is concentrated on the ***East Coast***. If the strategy is **state-focused**, marketing budget and inventory should prioritize the top ten states in the country, with Dstrict of Columbia leading the group,followed by Connecticut, New Jersey, Maryland,Massachusetts, Virginia, California, New York, New Hamshire and Washington.
    These States rest above the country wide housesold income of $ 65.000, with Washington being on the last position out of our top 10 with an average househols income at $ 75.000 and District of Columbia at the top with $ 91.000.
 
 
-## Deep Dive Analysis:
+## Deep Dive Analysis
 -----
 
 ### Income Distribution:
@@ -71,7 +72,7 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 - Alaska and Hawaii were excluded to improve distribution efficiency and keep the analysis focused on contiguous market logistics.That said, Alaska may warrant separate review later, as higher logistics costs and geographic isolation could influence both feasibility and observed income levels.
 
 
-## Market Analysis Insights:
+## Market Analysis Insights
 -----
 
   - Key finding : East Coast dominates high-income states, closely followed by the West Coast
@@ -80,7 +81,7 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
   - Complex markets with potential hidden costs: Alaska, Hawaii
   - Low-income states: are predominantly concentrated in the South and display a low purchasing power
 
-## Recommendations:
+## Recommendations
 -----
 
    Based on the analysis, Aurora Luxury Atelier should prioritize a phased US expansion strategy centered on affluent East Coast markets.
@@ -98,4 +99,3 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
    The exclusion of Alaska and Hawaii is practical for rollout planning, but it limits the completeness of the national picture.
 
 *represent a sample company
-
