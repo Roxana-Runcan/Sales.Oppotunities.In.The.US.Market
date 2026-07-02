@@ -18,6 +18,10 @@ The company's next big step is to extend its product line to the US market and n
 - [**Executive summary**](#executive-summary)
 
 - [**Deep Dive Analysis**](#deep-dive-analysis)
+     - [Income Distribution](#income-distribution)  
+     - [Income Distribution](#income-distribution)  
+     - [Income Distribution](#income-distribution)  
+     - [Income Distribution](#income-distribution)  
 
 - [**Market Analysis Insights**](#market-analysis-insights)
 
@@ -57,6 +61,17 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 ### Income Distribution:
 - The income distribution shows a clear spread between lower-income territories and the highest-earning states, with Puerto Rico sitting at the bottom of the range and the strongest markets clustering well above the national mean.
 - This suggests a meaningful concentration of purchasing power in a limited set of geographies.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46c25fb1-c263-4592-9f5d-67b97101c893" width="700" alt="general" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2dbdd32f-c54e-4dfa-8da5-90e6d629da5c" width="230" alt="100-150k" />
+  <img src="https://github.com/user-attachments/assets/e6b6e24e-e716-4bfd-97c8-e3c5da4a7c6f" width="230" alt="btw 150-200k" />
+  <img src="https://github.com/user-attachments/assets/653dd36b-2c58-4a9d-ae52-86116142f8f4" width="230" alt="over 200k" />
+</p>
+
+
 
 ### High Income States:
 - The top 10 states all exceed the national average of roughly 65k, making them the most relevant geographies for premium market targeting.
