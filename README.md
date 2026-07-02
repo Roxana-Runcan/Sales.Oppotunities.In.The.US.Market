@@ -8,8 +8,11 @@
 ## Project Background 
 
 
-Aurora Luxury Atelier*, founded in 2024 in Copenhagen, is a European luxury lifestyle brand specializing in handcrafted smart watches and fine leather accessories that integrate seamlessly with premium smartphones.The company combines Scandinavian design with advanced wearable technology and has built a strong customer-base across different European Countries.
-The company's next big step is to extend its product line to the US market and needs to understand which states offer the strongest commercial potential for its luxury products.
+  Aurora Luxury Atelier*, founded in 2024 in Copenhagen, is a European luxury lifestyle brand specializing in handcrafted smart watches and fine leather accessories that integrate seamlessly with premium smartphones.
+
+  Having established a strong foothold in Europe through its blend of Scandinavian design and advanced wearable technology, the company is now well positioned to pursue expansion into other affluent markets, such as the United States
+
+  The company's next big step is to extend its product line to the US market and needs to understand which states offer the strongest commercial potential for its luxury products.
 
 
 
@@ -19,9 +22,11 @@ The company's next big step is to extend its product line to the US market and n
 
 - [**Deep Dive Analysis**](#deep-dive-analysis)
      - [Income Distribution](#income-distribution)  
-     - [Income Distribution](#income-distribution)  
-     - [Income Distribution](#income-distribution)  
-     - [Income Distribution](#income-distribution)  
+     - [High Income States](#high-income-states)  
+     - [City-level Concentration](#city-level-concentration)  
+     - [Geographic Clustering](#geographic-clustering)
+     - [Risk Considerations](#risk-considerations)  
+
 
 - [**Market Analysis Insights**](#market-analysis-insights)
 
@@ -34,7 +39,7 @@ The company's next big step is to extend its product line to the US market and n
 
 
 
-An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1(https://public.tableau.com/app/profile/roxana.runcan/viz/USIncomeDistribution2/Dashboard1?publish=yes)](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1)).
+An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1).
 
 The SQL queries utilized to cleand, standardize and conduct initial analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
 
@@ -74,15 +79,15 @@ At the city level, the strongest concentration of high-earning cities is found i
 </p>
 
 ### City-level Concentration:
-- Within these 10 states, the strongest cities show average incomes starting at roughly 169k on the low end.This indicates that the opportunity is not evenly distributed across each state, but concentrated in select urban areas.
+- Within these 10 states, the strongest cities show average incomes starting at roughly 169k on the low end, this indicates that the opportunity is not evenly distributed across each state, but concentrated in select urban areas.
 
 <p align="center">
 <img width="700" height="486" alt="Income by City and State" src="https://github.com/user-attachments/assets/c2bcd6b4-df50-47cd-b329-f96ec8ff2c97" />
 </p>
 
-### Geographic Clustring:
-- A notable clustering pattern appears on the East Coast, where 9 of the 10 high-income states are concentrated. The remaining one high-income state are is represented by Californiaon the West Coast, creating a secondary but important opportunity cluster.
-- The analysis reveales that high_earning Cities are clusted within a small set of States,rather than being evenly distributed, wealth is concentrated in a few regions , highlighting priority zones for market entry
+### Geographic Clustering:
+- A notable clustering pattern appears on the East Coast, where 9 of the 10 high-income states are concentrated; the remaining high-income state  is represented by Californiaon on the West Coast, creating a secondary but important opportunity cluster.
+- The analysis reveales that high-earning Cities are clusted within a small set of States,rather than being evenly distributed, wealth is concentrated in a few regions , highlighting priority zones for market entry
 -  Clustered wealth reduces the need to spread resources across the whole country, because these attractive markets sit near each other
 -  The access on these markets is extremely advantageous , as clustered cities often share logistics, media reach, and customer behavior patterns, which can make entry and scaling more efficient
   <p align="center">
@@ -103,13 +108,14 @@ At the city level, the strongest concentration of high-earning cities is found i
   <img width="716" height="680" alt="Wealth vs Variability" src="https://github.com/user-attachments/assets/40fd7181-8b73-4b3a-b56a-9e0539190e43" />
 </p>
 
-  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/379b8e53-5159-48f2-9982-fbebd3649ffe" /> The pink cluster represents affluent but uneven markets, where income is high but standard deviation is also high.
+  <img width="28" height="27" alt="image" src="https://github.com/user-attachments/assets/7e20d45a-eb2a-4742-9a6e-a3181f8f0003" /> The light gray cluster represents lower-income but more stable markets.
   
-  <img width="28" height="27" alt="image" src="https://github.com/user-attachments/assets/7e20d45a-eb2a-4742-9a6e-a3181f8f0003" /> The gray cluster represents lower-income but more stable markets.
+
+  <img width="27" height="26" alt="image" src="https://github.com/user-attachments/assets/1da73ab4-51a1-4704-b305-fd9e78f1cd8f" /> The darker gray cluster represents all members under the 100k household income within a state or city, with uneven variability.
+
+  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/379b8e53-5159-48f2-9982-fbebd3649ffe" /> The light pink cluster represents affluent but uneven markets, where income is high but standard deviation is also high.
   
-  <img width="27" height="26" alt="image" src="https://github.com/user-attachments/assets/1da73ab4-51a1-4704-b305-fd9e78f1cd8f" /> The fact that only a very small number of points sit in the “high income, low deviation” zone suggests that truly stable affluence is rare.
-  
-  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/42cfcdde-296e-4e28-829b-8b9a6409341c" /> That means the headline income number can overstate how evenly wealth is spread within a state or city.
+  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/42cfcdde-296e-4e28-829b-8b9a6409341c" /> The fact that only a very small number of points sit in the “high income, low deviation” zone suggests that truly stable affluence is rare.
 
 
 ## Market Analysis Insights
@@ -117,7 +123,7 @@ At the city level, the strongest concentration of high-earning cities is found i
 
   - Key finding : East Coast dominates high-income states, closely followed by the West Coast
   - Primary recommendation: Focus on the highest-income states and affluent suburban cities
-  - Expansion model: should includ a pilot phase in the top East Coast markets, followed by expansion in additional high-income states such as California once demand is validated
+  - Expansion model: should includ a pilot phase in the top East Coast markets, followed by expansion in additional high-income states once demand is validated
   - Complex markets with potential hidden costs which have been excluded from analysis: Alaska, Hawaii
   - Low-income states: are predominantly concentrated in the South and display a low purchasing power
 
