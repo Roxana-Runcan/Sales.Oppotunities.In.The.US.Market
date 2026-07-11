@@ -75,7 +75,8 @@ At the city level, the strongest concentration of high-earning cities is found i
 - These states form the core market for the next stage of commercial prioritization.
 
 <p align="center">
-<img width="750" height="500" alt="Income by State" src="https://github.com/user-attachments/assets/ef1ae2cc-2e58-46a3-9d55-dc7b99581c88" />
+<img width="700" height="500" alt="Screenshot 2026-07-11 at 14 21 55" src="https://github.com/user-attachments/assets/0aa2391c-e858-44f0-b8ad-97f5af0137d2" />
+ />
 </p>
 
 ### City-level Concentration:
