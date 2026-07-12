@@ -84,8 +84,10 @@ AND City = 'Vinemont';
 #missing values that are not solvables
 SELECT ALand, AWater
 FROM us_household_income
-WHERE ALand IS NULL OR ALand =' ' OR ALand = 0
-AND AWater IS NULL OR AWater =' ' OR AWater = 0 ;
+WHERE 
+	(ALand IS NULL OR ALand =' ' OR ALand = 0)
+	AND 
+	(AWater IS NULL OR AWater =' ' OR AWater = 0) ;
 
 # identification of count of 0 values in key measure columns and assess if potential for bias exists
 SELECT SUM(counts)
