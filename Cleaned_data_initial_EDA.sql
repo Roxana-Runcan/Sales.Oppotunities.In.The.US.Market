@@ -5,29 +5,36 @@ FROM us_household_income;
 SELECT * 
 FROM income_statistics;
 
-SELECT COUNT(id)
+SELECT 
+	COUNT(id)
 FROM us_household_income;
 
-SELECT COUNT(id) 
+SELECT
+	COUNT(id) 
 FROM income_statistics;
 
 
 #duplicate identification and removal 
-SELECT id , COUNT(id)
+SELECT 
+	id,
+	COUNT(id)
 FROM income_statistics
 GROUP BY id 
 HAVING COUNT(id)>1;  #no duplicates in income_statistics table
 
-SELECT id , COUNT(id)
+SELECT 
+	id ,
+	COUNT(id)
 FROM us_household_income
 GROUP BY id 
 HAVING COUNT(id)>1;  # 7 duplicates in us_household_income 
 
 SELECT * 
 FROM (
-	SELECT row_id, 
-	id, 
-	ROW_NUMBER() OVER(PARTITION BY id ORDER BY ID) row_num
+	SELECT 
+		row_id, 
+		id, 
+		ROW_NUMBER() OVER(PARTITION BY id ORDER BY ID) row_num
 	FROM us_household_income
 	) duplicates
 WHERE row_num>1;
@@ -36,16 +43,19 @@ DELETE FROM us_household_income
 WHERE row_id IN (
 	SELECT row_id
 	FROM (
-		SELECT row_id, 
-		id, 
-		ROW_NUMBER() OVER(PARTITION BY id ORDER BY ID) row_num
+		SELECT 
+			row_id, 
+			id, 
+			ROW_NUMBER() OVER(PARTITION BY id ORDER BY ID) row_num
 		FROM us_household_income
 		) duplicates
 	WHERE row_num>1);
 
 
 #identification and standardization of string inconsistencies   
-SELECT DISTINCT State_Name, COUNT(State_Name)
+SELECT 
+	DISTINCT State_Name, 
+	COUNT(State_Name)
 FROM us_household_income
 GROUP BY State_name
 ORDER BY COUNT(State_Name); # 1 spelling error identified
@@ -54,7 +64,9 @@ UPDATE us_household_income
 SET State_Name = 'Georgia'
 WHERE State_Name = 'georia';
 
-SELECT DISTINCT Type, COUNT(Type)
+SELECT 
+	DISTINCT Type,
+	COUNT(Type)
 FROM us_household_income
 GROUP BY Type
 ORDER BY COUNT(Type); # 1 spelling error identified
@@ -73,7 +85,7 @@ WHERE Place IS NULL;
 
 SELECT *
 FROM us_household_income
-WHERE County= 'Autauga County';
+WHERE County = 'Autauga County';
 
 UPDATE us_household_income
 SET Place = 'Autaugaville'
@@ -82,7 +94,9 @@ AND City = 'Vinemont';
 
 
 #missing values that are not solvables
-SELECT ALand, AWater
+SELECT
+	ALand, 
+	AWater
 FROM us_household_income
 WHERE 
 	(ALand IS NULL OR ALand =' ' OR ALand = 0)
@@ -92,10 +106,13 @@ WHERE
 # identification of count of 0 values in key measure columns and assess if potential for bias exists
 SELECT SUM(counts)
 FROM( 
-	SELECT State_Name,count(*) AS counts
+	SELECT
+		State_Name,
+		count(*) AS counts
 	FROM income_statistics
-	WHERE Mean = 0 
-	OR Median = 0
+	WHERE( Mean = 0 )
+		OR
+		(Median = 0)
 	GROUP BY State_Name
     ) count_total; #315 key values missing
 
@@ -103,7 +120,9 @@ FROM(
 #impact calculation on analysis
 SELECT SUM(counts2)
 FROM( 
-	SELECT State_Name,count(*) AS counts2
+	SELECT 
+		State_Name,
+		count(*) AS counts2
 	FROM income_statistics
 	GROUP BY State_Name
     ) count_total; # 32526 total values
@@ -113,8 +132,9 @@ SELECT Round(315/32526*100,2) AS missing_percentage;
 
 SELECT * 
 FROM income_statistics 
-WHERE Mean = 0 
-OR Median = 0;
+WHERE (Mean = 0) 
+	OR
+	 (Median = 0);
 
 #for analysis accuracy, 0 values in key measures are removed
 DELETE FROM income_statistics
@@ -125,7 +145,8 @@ OR Median = 0; # 315 rows affected
 #The average of the top 10 high-earning states 
 SELECT ROUND(AVG(avg_mean),1) AS top_10_mean
 FROM(
-    SELECT s.State_Name,
+    SELECT 
+		s.State_Name,
 		ROUND(AVG(Mean),1) AS avg_mean
 	FROM income_statistics AS s
 	JOIN us_household_income AS hi
@@ -138,7 +159,8 @@ FROM(
 # The average of the top 10 low-earning states 
 SELECT ROUND(AVG(avg_mean),1) AS bottom_10_mean
 FROM (
-	SELECT s.State_Name,
+	SELECT 
+		s.State_Name,
 		ROUND(AVG(Mean),1) AS avg_mean
 	FROM income_statistics AS s
 	JOIN us_household_income AS hi
@@ -213,8 +235,9 @@ SELECT
 FROM income_statistics; # the under 100k income dominates at 86% of the whole 
 
 
-#interesting thing to look at maybe
-SELECT 	AVG(mean) as average,
+#interesting discovery,might grant additional investigation 
+SELECT 	
+	AVG(mean) as average,
 	AVG(CASE
 		WHEN mean <= (SELECT AVG(mean) FROM income_statistics)THEN 1 ELSE 0 END) * 100 AS under_average_percentage,
 	AVG(CASE
