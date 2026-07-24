@@ -1,16 +1,14 @@
 # US Market Sales Potential by Income
 -----
 [![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
-<a href="https://www.tableau.com/">
-  <img src="https://logo.svgcdn.com/logos/tableau.svg" alt="Tableau" width="100" />
-</a>
+[![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)](https://www.tableau.com/)
 
 ## Project Background 
 
 
-  Aurora Luxury Atelier*, founded in 2024 in Copenhagen, is a European luxury lifestyle brand specializing in handcrafted smart watches and fine leather accessories that integrate seamlessly with premium smartphones.
+  Aurora Luxury Atelier*, founded in 2024 in Copenhagen, is a European luxury lifestyle brand specializing in handcrafted smartwatches and fine leather accessories that integrate seamlessly with premium smartphones.
 
-  Having established a strong foothold in Europe through its blend of Scandinavian design and advanced wearable technology, the company is now well positioned to pursue expansion into other affluent markets, such as the United States
+  Having established a strong foothold in Europe through its blend of Scandinavian design and advanced wearable technology, the company is now well positioned to pursue expansion into other affluent markets, such as the United States.
 
   The company's next big step is to extend its product line to the US market and needs to understand which states offer the strongest commercial potential for its luxury products.
 
@@ -41,14 +39,14 @@
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1).
 
-The SQL queries utilized to cleand, standardize and conduct initial analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
+The SQL queries used to clean, standardize and conduct initial analysis of the dataset are found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
 
 The files with the unprocessed data can be found [here]( https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/tree/main/data/raw).
 
 ## Data Structure and Initial Checks:
 -----
 
-The US Income Database Structure, as seen below, contains two main Tables : US Household Income and US Household Income Statistics with a total row count of 65,059.
+The US Income Database Structure, as seen below, contains two main tables: US Household Income and US Household Income Statistics with a total row count of 65,059.
 
 <img width="751" height="675" alt="Screenshot 2026-06-01 at 16 59 28" src="https://github.com/user-attachments/assets/2c34b6f5-789b-4d7e-b87c-fec3ef4becc5" />
 
@@ -56,7 +54,7 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 ## Executive Summary
 
 
-The purpose of this analysis was to identify concentrations of buying power across the United States to guide market-entry strategy for a European company. The results show that the top 10 most affluent states should be the primary target, with nine located on the East Coast and one on the West Coast.
+The purpose of the analysis was to identify concentrations of buying power across the United States to guide the market-entry strategy for a European company. The results show that the top 10 most affluent states should be the primary target, with eight located on the East Coast and two on the West Coast.
 
 At the city level, the strongest concentration of high-earning cities is found in only five states: Connecticut, New Jersey, Maryland, California, and Massachusetts. This pattern suggests that initial expansion efforts should focus on these states, as they combine strong household purchasing power with clustered high-income urban markets.
 
@@ -64,7 +62,7 @@ At the city level, the strongest concentration of high-earning cities is found i
 -----
 
 ### Income Distribution:
-- The income distribution appears broadly centered in the middle-income range, with a gradual increase toward a peak around 50K–70K and a slow tapering toward higher incomes. Overall, the shape is close to a normal distribution, but with a slight right skew caused by a smaller number of high-income households
+- The income distribution appears broadly centered in the middle-income range, with a gradual increase toward a peak around 50K–70K and a slow tapering toward higher incomes. Overall, the shape is close to a normal distribution, but with a slight right skew caused by a smaller number of high-income households.
 <p align="center">
 <img width="500" height="500" alt="Screenshot 2026-07-02 at 17 33 55" src="https://github.com/user-attachments/assets/4428591d-0ae3-41ba-8029-5d07085f200f" />
 </p>
@@ -87,10 +85,10 @@ At the city level, the strongest concentration of high-earning cities is found i
 </p>
 
 ### Geographic Clustering:
-- A notable clustering pattern appears on the East Coast, where 9 of the 10 high-income states are concentrated; the remaining high-income state  is represented by Californiaon on the West Coast, creating a secondary but important opportunity cluster.
-- The analysis reveales that high-earning Cities are clusted within a small set of States,rather than being evenly distributed, wealth is concentrated in a few regions , highlighting priority zones for market entry
--  Clustered wealth reduces the need to spread resources across the whole country, because these attractive markets sit near each other
--  The access on these markets is extremely advantageous , as clustered cities often share logistics, media reach, and customer behavior patterns, which can make entry and scaling more efficient
+- A notable clustering pattern appears on the East Coast, where 8 of the 10 high-income states are concentrated; the remaining two high-income state are represented by California and Washington on the West Coast, creating a secondary but important opportunity cluster.
+- The analysis reveals that high-earning Cities are clustered within a small set of States,rather than being evenly distributed, wealth is concentrated in a few regions, highlighting priority zones for market entry.
+-  Clustered wealth reduces the need to spread resources across the whole country, because these attractive markets sit near each other.
+-  The access on these markets is extremely advantageous, as clustered cities often share logistics, media reach, and customer behavior patterns, which can make entry and scaling more efficient.
   <p align="center">
   <img src="https://github.com/user-attachments/assets/46c25fb1-c263-4592-9f5d-67b97101c893" width="700" alt="general" />
 </p>
@@ -103,7 +101,7 @@ At the city level, the strongest concentration of high-earning cities is found i
 
 ### Risk Considerations:
 
-- High-earning cities and states often show strong average income levels, but they also display higher income variability, indicating that wealth is less evenly distributed. In this dataset, only a very small number of members fall into the most stable affluent category, while the majority of high-income observations still exceed the variability threshold (set at 10.000), suggesting that many affluent markets may be less stable than their averages imply
+- High-earning cities and states often show strong average income levels, but they also display higher income variability, indicating that wealth is less evenly distributed. In this dataset, only a very small number of members fall into the most stable affluent category, while the majority of high-income observations still exceed the variability threshold (set at 10,000), suggesting that many affluent markets may be less stable than their averages imply.
 
 <p align="center">
   <img width="716" height="680" alt="Wealth vs Variability" src="https://github.com/user-attachments/assets/40fd7181-8b73-4b3a-b56a-9e0539190e43" />
@@ -122,9 +120,9 @@ At the city level, the strongest concentration of high-earning cities is found i
 ## Market Analysis Insights
 -----
 
-  - Key finding : East Coast dominates high-income states, closely followed by the West Coast
-  - Primary recommendation: Focus on the highest-income states and affluent suburban cities
-  - Expansion model: should includ a pilot phase in the top East Coast markets, followed by expansion in additional high-income states once demand is validated
+  - Key finding: East Coast dominates high-income states, closely followed by the West Coast.
+  - Primary recommendation: Focus on the highest-income states and affluent suburban cities.
+  - Expansion model: should include a pilot phase in the top East Coast markets, followed by expansion in additional high-income states once demand is validated
   - Complex markets with potential hidden costs which have been excluded from analysis: Alaska, Hawaii
   - Low-income states: are predominantly concentrated in the South and display a low purchasing power
 
@@ -132,7 +130,7 @@ At the city level, the strongest concentration of high-earning cities is found i
 -----
 
    Based on the analysis, Aurora Luxury Atelier should prioritize a phased US expansion strategy centered on affluent East Coast markets.
-   The strongest commercial potential is concentrated in high-income states such as the District of Maryland, New Jersey, Connecticut, District of Columbia and Massachusetts, with additional opportunity in select high-income suburban cities. This should reduce operational complexity and improve access to high-value customer segments.
+   The strongest commercial potential is concentrated in high-income states such as the District of Columbia, New Jersey, Connecticut, Maryland and Massachusetts, with additional opportunity in select high-income suburban cities. This should reduce operational complexity and improve access to high-value customer segments.
    Given the elevated logistics and infrastructure costs associated with Alaska and Hawaii these markets should be deferred until a later expansion phase.
    In the short term, the brand should focus on premium, high-income regions where purchasing power is strongest and customer acquisition efficiency is most likely to be highest.
      
