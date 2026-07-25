@@ -138,7 +138,7 @@ At the city level, the strongest concentration of high-earning cities is found i
 
 ## Caveats and assumptions
 ----- 
-- Alaska and Hawaii were excluded to improve distribution efficiency and keep the analysis focused on contiguous market logistics.That said, Alaska may warrant separate review later, as higher logistics costs and geographic isolation could influence both feasibility and observed income levels.
+- Alaska and Hawaii were excluded to improve distribution efficiency and keep the analysis focused on continuous market logistics.That said, Alaska may warrant separate review later, as higher logistics costs and geographic isolation could influence both feasibility and observed income levels.
 - The income figures should be interpreted as directional market signals rather than a guarantee of demand or conversion.
    High income improves targeting potential, but product-market fit, pricing, competition, and local execution will still drive results.
    The exclusion of Alaska and Hawaii is practical for rollout planning, but it limits the completeness of the national picture.
