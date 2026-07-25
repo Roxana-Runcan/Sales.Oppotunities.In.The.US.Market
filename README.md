@@ -1,4 +1,4 @@
-# US Market Sales Potential by Income
+# Sales Opportunities in the U.S, Market by Income Level
 -----
 [![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)](https://www.tableau.com/)
@@ -39,9 +39,9 @@
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1).
 
-The SQL queries used to clean, standardize and conduct initial analysis of the dataset are found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
+The SQL queries, with additional comments describing the workflow used to clean, standardize, and perform the initial analysis of the dataset, can be found [here](https://github.com/Roxana-Runcan/Sales.Oppotunities.In.The.US.Market/blob/main/SQL%20Script/Cleaned_data_initial_EDA.sql).
 
-The files with the unprocessed data can be found [here]( https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/tree/main/data/raw).
+The files with the unprocessed data can be found [here](https://github.com/Roxana-Runcan/Sales.Oppotunities.In.The.US.Market/tree/main/Raw%20Data%20Files) .
 
 ## Data Structure and Initial Checks:
 -----
@@ -142,5 +142,6 @@ At the city level, the strongest concentration of high-earning cities is found i
 - The income figures should be interpreted as directional market signals rather than a guarantee of demand or conversion.
    High income improves targeting potential, but product-market fit, pricing, competition, and local execution will still drive results.
    The exclusion of Alaska and Hawaii is practical for rollout planning, but it limits the completeness of the national picture.
+- The data used in this project was sourced from an external website that links to government data
+- 'Aurora Luxury Atelier' represent a sample company created for the purpose of exploring realistic scenarios of a company that plans expansion in the US market
 
-*represent a sample company
