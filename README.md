@@ -16,7 +16,7 @@
 
 ## Insights and recommendations are provided on the key areas:
 -----
-- [**Executive summary**](#executive-summary)
+- [**Executive Summary**](#executive-summary)
 
 - [**Deep Dive Analysis**](#deep-dive-analysis)
      - [Income Distribution](#income-distribution)  
@@ -30,7 +30,7 @@
 
 - [**Recommendations**](#recommendations)
 
-- [**Caveats and assumptions**](#caveats-and-assumptions)
+- [**Caveats and Assumptions**](#caveats-and-assumptions)
 
   
 
@@ -136,12 +136,12 @@ At the city level, the strongest concentration of high-earning cities is found i
      
 
 
-## Caveats and assumptions
+## Caveats and Assumptions
 ----- 
 - Alaska and Hawaii were excluded to improve distribution efficiency and keep the analysis focused on continuous market logistics.That said, Alaska may warrant separate review later, as higher logistics costs and geographic isolation could influence both feasibility and observed income levels.
 - The income figures should be interpreted as directional market signals rather than a guarantee of demand or conversion.
    High income improves targeting potential, but product-market fit, pricing, competition, and local execution will still drive results.
    The exclusion of Alaska and Hawaii is practical for rollout planning, but it limits the completeness of the national picture.
-- The data used in this project was sourced from an external website that links to government data
+- The data used in this project was sourced from an external [website](https://www.analystbuilder.com/) that links to government data
 - 'Aurora Luxury Atelier' represent a sample company created for the purpose of exploring realistic scenarios of a company that plans expansion in the US market
 
